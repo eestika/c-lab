@@ -10,8 +10,6 @@ Questo progetto implementa un sistema di gestione di un registro studenti utiliz
 ```
 registro-studenti/
 │── main.c              # File principale con il codice sorgente
-│── studenti.h          # Definizione delle strutture e delle funzioni
-│── studenti.c          # Implementazione delle funzioni
 │── README.md           # Questo file
 ```
 
@@ -29,8 +27,6 @@ gcc main.c studenti.c -o registro -Wall -Wextra -pedantic
 - Eliminazione di uno studente
 - Salvataggio e caricamento da file
 
-## 📜 Licenza
-Questo progetto è distribuito sotto la licenza MIT.
 
 ---
 
@@ -46,8 +42,6 @@ This project implements a student registry management system using the C languag
 ```
 registro-studenti/
 │── main.c              # Main file with source code
-│── studenti.h          # Definition of structures and functions
-│── studenti.c          # Implementation of functions
 │── README.md           # This file
 ```
 
@@ -65,5 +59,3 @@ gcc main.c studenti.c -o registro -Wall -Wextra -pedantic
 - Delete a student
 - Save and load from file
 
-## 📜 License
-This project is released under the MIT license.
